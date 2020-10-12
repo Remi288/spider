@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="{% static 'css/page.css'%}" rel="stylesheet" />
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="main">
+            <nav class="navbar navbar-expand-lg">
+                <div>
+                <img src="{% static 'images/icons/spider.png'%}" alt="" width="40px" height="40px" class="logo-img">
+                <a class="navbar-brand" href="">SPIDER UI</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+
+                <div class="collapse navbar-collapse nav-ul" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <button><a href="nav-link">LOGOUT</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container main-header">
+                <h2>Pages Browser</h2>
+
+                <div class=" header">
+                    <div class="for-header">
+                        <h3 class="number">1</h3>
+                        <h3 class="scrape">SCRAPE</h3>
+                    </div>
+                    <div class="container for-list">
+                        <ul class="container">
+                            <li><a href="">https://www.figma.com/file/67pQj2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</a></li>
+                            <div class="pink">
+                                <li><a href="">https://www.child-link.com/file/67pQj2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</a></li>
+                            </div>
+                            <div class="pink1">
+                                <li><a href="">https://www.facebook.com/file/67pQj2FeqkkZJOsx9zY53T/Another?node-id=1%3A2</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=" header">
+                    <div class="for-header">
+                        <h3 class="number">2</h3>
+                        <h3 class="scrape">SCRAPE</h3>
+                    </div>
+                    <div class="container for-list">
+                        <ul class="container">
+                            <li><a href="">https://www.figma.com/file/67pQj2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</a></li>
+                            <div class="pink3">
+                                <li><a href="">Page scraping in progress ...</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=" header">
+                    <div class="for-header">
+                        <h3 class="number">3</h3>
+                        <h3 class="scrape">SCRAPE</h3>
+                    </div>
+                    <div class="container for-list">
+                        <ul class="container">
+                            <li><a href="">https://www.figma.com/file/67pQj2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</a></li>
+                            <div class="pink3">
+                                <li><a href="">No link has been scrapped yet for this page</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

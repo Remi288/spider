@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.navbar {
+    background-color: rgb(2, 175, 255);
+}
+
+.logo-img{
+    margin-left: 30px;
+
+}
+
+.navbar-brand{
+    margin: 0 0 0 20px;
+    color: white;
+
+}
+
+.nav-ul a {
+    padding: 30px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-ul a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-ul button {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.main-header h2 {
+    padding: 20px 0;
+    font-size: 20px;
+    text-transform: none;
+}
+
+.header {
+    /* width: 80vw; */
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.for-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.for-header .number {
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color:#DBDBDB;
+}
+
+.for-header .scrape {
+    font-size: 13px;
+    margin: 10px 30px 0 0;
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 30px;
+    /* background-color: green; */
+}
+
+.for-list ul {
+    line-height: 2;
+}
+
+.for-list ul li {
+    list-style: none;
+}
+
+.for-list ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.pink{
+    background-color: #FFEEEE;
+    margin: 10px 0 20px 0;
+    padding-left: 10px;
+}
+
+.pink1{
+    background-color: #FFEEEE;
+    margin: 0 0 20px 0;
+    padding-left: 10px;
+}
+
+.pink3{
+    background-color: #FFEEEE;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    text-align: center;
+}

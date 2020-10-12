@@ -1,0 +1,96 @@
+/* [ FONT ] */
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.731a28a413d6.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../fonts/poppins/Poppins-Medium.a4e11dda4053.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonts/poppins/Poppins-Bold.7940efc40d8e.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../fonts/poppins/Poppins-SemiBold.e63b93dfac26.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.form-div {
+    background-color: white;
+    margin: 2% auto;
+    max-width: 100%;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.header-logo img {
+    margin: 30px 0 60px 0;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+.flex input{
+    margin-bottom: 60px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+.flex input:focus{
+   outline: none;
+}
+
+.flex button {
+    /* width: 60%; */
+    /* align-self: center; */
+    padding: 10px 0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 150px;
+    background-image: linear-gradient(to right, rgb(0, 217, 255) , rgb(195, 89, 245));
+}
+
+.flex p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.toggle-password {
+    display: inline-flex;
+}
+
+.toggle-password .group2>i {
+	position: absolute;
+    cursor: pointer;
+    margin-right: 40px;
+    justify-content: flex-end;
+}
